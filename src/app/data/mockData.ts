@@ -8,6 +8,7 @@ export const serviceCategories = [
   { id: 'host', name: 'Event Hosts', icon: '🎤' },
 ];
 
+<<<<<<< HEAD
 export const availableSkills = [
   'Weddings',
   'Corporate Events',
@@ -50,6 +51,8 @@ export const ukLocations = [
   'Sheffield, UK',
 ];
 
+=======
+>>>>>>> 7f5efd89eb1cca90a120b5a19d92fc0dc1a584ba
 export const mockServices: ServiceProvider[] = [
   {
     id: '1',
@@ -63,9 +66,12 @@ export const mockServices: ServiceProvider[] = [
     image: 'https://images.unsplash.com/photo-1571266028243-d220bb1d8559?w=400&h=300&fit=crop',
     description: 'Professional DJ with 10+ years of experience specializing in weddings, corporate events, and private parties.',
     availability: ['2026-01-20', '2026-01-25', '2026-02-01'],
+<<<<<<< HEAD
     skills: ['Weddings', 'Corporate Events', 'House Music', 'Top 40', 'Sound Equipment'],
     hourlyRate: 400,
     experience: 10,
+=======
+>>>>>>> 7f5efd89eb1cca90a120b5a19d92fc0dc1a584ba
   },
   {
     id: '2',
@@ -79,9 +85,12 @@ export const mockServices: ServiceProvider[] = [
     image: 'https://images.unsplash.com/photo-1554048612-b6a482bc67e5?w=400&h=300&fit=crop',
     description: 'Award-winning photographer capturing beautiful moments for weddings, engagements, and special events.',
     availability: ['2026-01-22', '2026-01-28', '2026-02-05'],
+<<<<<<< HEAD
     skills: ['Weddings', 'Portrait', 'Event Photography', 'Photo Editing', 'Drone Photography'],
     hourlyRate: 650,
     experience: 8,
+=======
+>>>>>>> 7f5efd89eb1cca90a120b5a19d92fc0dc1a584ba
   },
   {
     id: '3',
@@ -95,9 +104,12 @@ export const mockServices: ServiceProvider[] = [
     image: 'https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?w=400&h=300&fit=crop',
     description: 'Creating cinematic event videos with professional equipment and creative storytelling.',
     availability: ['2026-01-23', '2026-02-02', '2026-02-10'],
+<<<<<<< HEAD
     skills: ['Weddings', 'Corporate Videos', '4K Recording', 'Drone Footage', 'Video Editing'],
     hourlyRate: 800,
     experience: 12,
+=======
+>>>>>>> 7f5efd89eb1cca90a120b5a19d92fc0dc1a584ba
   },
   {
     id: '4',
@@ -111,9 +123,12 @@ export const mockServices: ServiceProvider[] = [
     image: 'https://images.unsplash.com/photo-1511192336575-5a79af67a629?w=400&h=300&fit=crop',
     description: 'Professional jazz ensemble perfect for weddings, corporate events, and elegant gatherings.',
     availability: ['2026-01-26', '2026-02-03', '2026-02-12'],
+<<<<<<< HEAD
     skills: ['Jazz', 'Weddings', 'Corporate Events', 'Classical Music', 'Live Performance'],
     hourlyRate: 500,
     experience: 15,
+=======
+>>>>>>> 7f5efd89eb1cca90a120b5a19d92fc0dc1a584ba
   },
   {
     id: '5',
@@ -127,9 +142,12 @@ export const mockServices: ServiceProvider[] = [
     image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=300&fit=crop',
     description: 'Experienced MC and event host with a talent for keeping audiences engaged and events running smoothly.',
     availability: ['2026-01-24', '2026-01-30', '2026-02-08'],
+<<<<<<< HEAD
     skills: ['MC Services', 'Corporate Events', 'Weddings', 'Public Speaking', 'Event Coordination'],
     hourlyRate: 250,
     experience: 7,
+=======
+>>>>>>> 7f5efd89eb1cca90a120b5a19d92fc0dc1a584ba
   },
   {
     id: '6',
@@ -143,6 +161,7 @@ export const mockServices: ServiceProvider[] = [
     image: 'https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?w=400&h=300&fit=crop',
     description: 'Bringing energy to your special day with the perfect mix of classic hits and modern favorites.',
     availability: ['2026-01-27', '2026-02-04', '2026-02-15'],
+<<<<<<< HEAD
     skills: ['Weddings', 'Top 40', 'Disco', 'Sound Equipment', 'Lighting'],
     hourlyRate: 350,
     experience: 5,
@@ -210,6 +229,8 @@ export const mockServices: ServiceProvider[] = [
     skills: ['Weddings', 'Corporate Videos', '4K Recording', 'Video Editing', 'Same-day Highlights'],
     hourlyRate: 700,
     experience: 11,
+=======
+>>>>>>> 7f5efd89eb1cca90a120b5a19d92fc0dc1a584ba
   },
 ];
 

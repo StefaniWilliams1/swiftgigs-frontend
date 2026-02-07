@@ -10,7 +10,10 @@ import { ClientDashboard } from '@/app/pages/ClientDashboard';
 import { ProviderDashboard } from '@/app/pages/ProviderDashboard';
 import { MessagesPage } from '@/app/pages/MessagesPage';
 import { AdminDashboard } from '@/app/pages/AdminDashboard';
+<<<<<<< HEAD
 import { MatchingPage } from '@/app/pages/MatchingPage';
+=======
+>>>>>>> 7f5efd89eb1cca90a120b5a19d92fc0dc1a584ba
 
 function App() {
   return (
@@ -22,7 +25,10 @@ function App() {
           <Route path="/login" element={<LoginPage />} />
           <Route path="/signup" element={<SignupPage />} />
           <Route path="/services" element={<ServicesPage />} />
+<<<<<<< HEAD
           <Route path="/matching" element={<MatchingPage />} />
+=======
+>>>>>>> 7f5efd89eb1cca90a120b5a19d92fc0dc1a584ba
           <Route path="/service/:id" element={<ServiceDetailPage />} />
           <Route path="/booking" element={<BookingPage />} />
           <Route path="/client-dashboard" element={<ClientDashboard />} />
@@ -35,4 +41,8 @@ function App() {
   );
 }
 
+<<<<<<< HEAD
 export default App;
+=======
+export default App;
+>>>>>>> 7f5efd89eb1cca90a120b5a19d92fc0dc1a584ba

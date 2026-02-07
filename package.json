@@ -1,4 +1,9 @@
 {
+<<<<<<< HEAD
+=======
+  "homepage": "https://StefaniWilliams1.github.io/swiftgigs-frontend/",
+
+>>>>>>> 7f5efd89eb1cca90a120b5a19d92fc0dc1a584ba
   "name": "@figma/my-make-file",
   "private": true,
   "version": "0.0.1",
@@ -86,4 +91,8 @@
       "vite": "6.3.5"
     }
   }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 7f5efd89eb1cca90a120b5a19d92fc0dc1a584ba

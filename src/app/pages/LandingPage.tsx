@@ -2,7 +2,11 @@ import { Link } from 'react-router-dom';
 import { Button } from '@/app/components/ui/button';
 import { Input } from '@/app/components/ui/input';
 import { Card, CardContent } from '@/app/components/ui/card';
+<<<<<<< HEAD
 import { Search, CheckCircle, Star, Users, Shield, Sparkles } from 'lucide-react';
+=======
+import { Search, CheckCircle, Star, Users, Shield } from 'lucide-react';
+>>>>>>> 7f5efd89eb1cca90a120b5a19d92fc0dc1a584ba
 import { serviceCategories, mockServices } from '@/app/data/mockData';
 import { ServiceCard } from '@/app/components/ServiceCard';
 
@@ -119,6 +123,7 @@ export function LandingPage() {
         </div>
       </section>
 
+<<<<<<< HEAD
       {/* Smart Matching Feature */}
       <section className="bg-gradient-to-br from-purple-50 via-blue-50 to-purple-50 py-16 sm:py-20">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -191,6 +196,8 @@ export function LandingPage() {
         </div>
       </section>
 
+=======
+>>>>>>> 7f5efd89eb1cca90a120b5a19d92fc0dc1a584ba
       {/* How it Works */}
       <section id="how-it-works" className="py-16 sm:py-20">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -360,4 +367,8 @@ export function LandingPage() {
       </footer>
     </div>
   );
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 7f5efd89eb1cca90a120b5a19d92fc0dc1a584ba
