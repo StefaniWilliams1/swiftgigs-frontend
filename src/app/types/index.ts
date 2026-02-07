@@ -18,12 +18,9 @@ export interface ServiceProvider {
   image: string;
   description: string;
   availability: string[];
-<<<<<<< HEAD
   skills?: string[]; // Skills/specialties
   hourlyRate?: number; // Base hourly rate for filtering
   experience?: number; // Years of experience
-=======
->>>>>>> 7f5efd89eb1cca90a120b5a19d92fc0dc1a584ba
 }
 
 export interface Booking {
@@ -58,7 +55,6 @@ export interface Review {
   comment: string;
   date: string;
 }
-<<<<<<< HEAD
 
 export interface MatchingCriteria {
   skills: string[];
@@ -74,5 +70,3 @@ export interface ProviderMatch extends ServiceProvider {
     availabilityMatch: number;
   };
 }
-=======
->>>>>>> 7f5efd89eb1cca90a120b5a19d92fc0dc1a584ba

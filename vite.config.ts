@@ -1,5 +1,4 @@
 import { defineConfig } from 'vite'
-<<<<<<< HEAD
 import path from 'path'
 import tailwindcss from '@tailwindcss/vite'
 import react from '@vitejs/plugin-react'
@@ -17,11 +16,4 @@ export default defineConfig({
       '@': path.resolve(__dirname, './src'),
     },
   },
-=======
-import react from '@vitejs/plugin-react'
-
-export default defineConfig({
-  plugins: [react()],
-  base: "/swiftgigs-frontend/"
->>>>>>> 7f5efd89eb1cca90a120b5a19d92fc0dc1a584ba
 })
