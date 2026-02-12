@@ -23,7 +23,9 @@ import {
   CheckCircle2, 
   Trophy,
   Filter,
-  Sparkles
+  Sparkles,
+  Brain,
+  Zap
 } from 'lucide-react';
 import { mockServices, availableSkills, ukLocations } from '@/app/data/mockData';
 import { ProviderMatch, MatchingCriteria } from '@/app/types';
@@ -129,21 +131,31 @@ export function MatchingPage() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="mb-8">
-          <div className="flex items-center gap-3 mb-2">
-            <Sparkles className="h-8 w-8 text-purple-600" />
-            <h1 className="text-3xl font-bold text-gray-900">Smart Provider Matching</h1>
+          <div className="flex items-center gap-3 mb-3">
+            <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-to-br from-purple-600 to-blue-600">
+              <Brain className="h-7 w-7 text-white" />
+            </div>
+            <div>
+              <div className="flex items-center gap-2 mb-1">
+                <h1 className="text-3xl font-bold text-gray-900">Smart AI Matching System</h1>
+                <Badge className="bg-gradient-to-r from-purple-600 to-blue-600 text-white">
+                  AI-Powered
+                </Badge>
+              </div>
+            </div>
           </div>
-          <p className="text-gray-600">
-            Find the perfect entertainment professionals based on your specific needs
+          <p className="text-gray-600 flex items-center gap-2">
+            <Zap className="h-4 w-4 text-purple-600" />
+            Our intelligent AI system finds perfect entertainment professionals based on your specific needs
           </p>
         </div>
 
         {/* Criteria Selection Card */}
-        <Card className="mb-8 rounded-xl shadow-md">
-          <CardHeader>
+        <Card className="mb-8 rounded-xl shadow-md border-2 border-purple-100">
+          <CardHeader className="bg-gradient-to-r from-purple-50 to-blue-50">
             <CardTitle className="flex items-center gap-2">
-              <Search className="h-5 w-5 text-purple-600" />
-              What are you looking for?
+              <Brain className="h-5 w-5 text-purple-600" />
+              Tell our AI what you're looking for
             </CardTitle>
           </CardHeader>
           <CardContent className="space-y-6">
@@ -523,15 +535,21 @@ export function MatchingPage() {
 
         {/* Empty State */}
         {!hasSearched && (
-          <Card className="rounded-xl p-12 text-center">
-            <Sparkles className="mx-auto mb-4 h-16 w-16 text-purple-600" />
+          <Card className="rounded-xl p-12 text-center border-2 border-purple-100">
+            <div className="mx-auto mb-4 flex h-20 w-20 items-center justify-center rounded-full bg-gradient-to-br from-purple-100 to-blue-100">
+              <Brain className="h-10 w-10 text-purple-600" />
+            </div>
             <h3 className="mb-2 text-xl font-semibold text-gray-900">
-              Start Your Search
+              Ready for AI-Powered Matching
             </h3>
-            <p className="text-gray-600">
-              Select your criteria above to find the perfect entertainment professionals
-              for your event
+            <p className="text-gray-600 mb-4">
+              Select your criteria above and let our intelligent AI system analyze and find 
+              the perfect entertainment professionals for your event
             </p>
+            <div className="flex items-center justify-center gap-2 text-sm text-purple-600">
+              <Zap className="h-4 w-4" />
+              <span className="font-medium">Powered by advanced AI algorithms</span>
+            </div>
           </Card>
         )}
       </div>

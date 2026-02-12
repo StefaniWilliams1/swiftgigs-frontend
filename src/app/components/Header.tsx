@@ -12,13 +12,13 @@ export function Header() {
     ? [
         { name: 'Dashboard', path: '/client-dashboard' },
         { name: 'Browse Services', path: '/services' },
-        { name: 'Smart Match', path: '/matching' },
+        { name: 'AI Matching', path: '/matching' },
         { name: 'Messages', path: '/messages' },
       ]
     : [
         { name: 'How it Works', path: '/#how-it-works' },
         { name: 'Browse Services', path: '/services' },
-        { name: 'Smart Match', path: '/matching' },
+        { name: 'AI Matching', path: '/matching' },
         { name: 'Become a Pro', path: '/#become-pro' },
       ];
 
